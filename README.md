@@ -3,4 +3,5 @@
 
 ### This project has Cucumber Report
 
-![image](https://user-images.githubusercontent.com/13474307/160660415-c96c7b99-442e-44f4-9710-4ba4ad3c593c.png)
+![image](https://user-images.githubusercontent.com/13474307/160663107-fcab4b19-8c36-4726-87a4-0440245902a5.png)
+
