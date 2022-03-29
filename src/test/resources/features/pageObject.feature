@@ -1,6 +1,6 @@
-Feature: LoginPage
+Feature: Purchase
 
-  Scenario: Valid username and password.
+  Scenario: Purchase Business Flow.
     Given that I'm on the login page and enter the username "standard_user"
     And fill the password field with "secret_sauce"
     And Click in Login button
@@ -14,5 +14,3 @@ Feature: LoginPage
     And check if the "Sauce Labs Backpack" product is in the checkout overview
     And click to finish purchase
     Then Receive the confirmation message that the purchase was complete "THANK YOU FOR YOUR ORDER"
-
-
