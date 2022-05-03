@@ -16,11 +16,7 @@ public class Element {
     }
 
     public WebElement getElement(By by) {
-        if (posicao == null) {
-            return Driver.getDriver().findElement(by);
-        } else {
-            return Driver.getDriver().findElements(by).get(posicao);
-        }
+        return Driver.getDriver().findElement(by);
     }
 
     public WebElement createElement() {
