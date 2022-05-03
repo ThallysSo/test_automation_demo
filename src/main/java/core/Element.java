@@ -8,7 +8,6 @@ public class Element {
 
     private final String map;
     private final ByValue by;
-    private Integer posicao;
 
     public Element(String map, ByValue _by) {
         this.map = map;
